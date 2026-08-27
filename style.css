@@ -36,9 +36,10 @@ body {
 
 
 .header {
-    background-color: #0b1a2e;
+    background-color: #06111f;
     color: white;
     padding: 20px 0;
+    border-bottom: 2px solid #2563eb;
 }
 
 .header .contenedor {
