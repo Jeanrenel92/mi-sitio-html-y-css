@@ -1,298 +1,942 @@
+```html
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jred Tech Services</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
+
 <body>
+
+
     <!-- Encabezado -->
+
     <header class="header">
+
         <div class="contenedor">
 
             <div class="logo">
-                <img src="data/icon/logo.png" alt="Jred Tech Services">
-                <span>Jred Tech Services</span>
+
+                <img
+                    src="data/icon/logo.png"
+                    alt="Logo de Jred Tech Services">
+
+                <span>
+                    Jred Tech Services
+                </span>
+
             </div>
 
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicio.html">Servicios</a></li>
-                <li><a href="proyecto.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
-            </ul>
+
+            <nav>
+
+                <ul class="menu">
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicio.html">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="proyecto.html">
+                            Proyectos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
         </div>
+
     </header>
 
-<!-- Home -->
-<main class="home">
 
-    <div class="contenedor">
+    <!-- Contenido principal -->
 
-        <h1>
-            Impulsamos la
-            <span>Transformación digital</span>
-            de tu empresa.
-        </h1>
+    <main>
 
-        <p>
-            Desarrollamos software, plataformas empresariales,
-            soluciones Cloud y Ciberseguridad para llevar tu
-            negocio al siguiente nivel.
-        </p>
 
-        <a href="#" class="btn-contacto">
-            Agenda una reunión gratuita
-        </a>
+        <!-- Sección principal -->
 
-        <!-- Estadísticas -->
-        <div class="home-stat">
+        <section class="home" id="inicio">
 
-            <div class="s-item">
-                <span class="s-number">10+</span>
-                <span class="s-label">Proyectos entregados</span>
+            <div class="contenedor">
+
+                <h1>
+
+                    Impulsamos la
+
+                    <span>
+                        Transformación digital
+                    </span>
+
+                    de tu empresa.
+
+                </h1>
+
+
+                <p>
+
+                    Desarrollamos software, plataformas empresariales,
+                    soluciones Cloud y Ciberseguridad para llevar tu
+                    negocio al siguiente nivel.
+
+                </p>
+
+
+                <a
+                    href="contacto.html"
+                    class="btn-contacto">
+
+                    Agenda una reunión gratuita
+
+                </a>
+
+
+                <!-- Estadísticas -->
+
+                <div class="home-stat">
+
+                    <div class="s-item">
+
+                        <span class="s-number">
+                            10+
+                        </span>
+
+                        <span class="s-label">
+                            Proyectos entregados
+                        </span>
+
+                    </div>
+
+
+                    <div class="s-item">
+
+                        <span class="s-number">
+                            99.9%
+                        </span>
+
+                        <span class="s-label">
+                            Uptime promedio
+                        </span>
+
+                    </div>
+
+
+                    <div class="s-item">
+
+                        <span class="s-number">
+                            12
+                        </span>
+
+                        <span class="s-label">
+                            Países atendidos
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="s-item">
-                <span class="s-number">99.9%</span>
-                <span class="s-label">Uptime promedio</span>
+        </section>
+
+
+        <!-- Servicios -->
+
+        <section
+            class="servicios"
+            id="servicios">
+
+            <div class="contenedor">
+
+
+                <div class="servicios-header">
+
+                    <h2>
+                        Nuestros servicios
+                    </h2>
+
+                    <p>
+
+                        Ofrecemos soluciones tecnológicas diseñadas para
+                        impulsar el crecimiento y la transformación digital
+                        de tu empresa.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Tarjetas de servicios -->
+
+                <div class="servicios-grid">
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/programacion.png"
+                            alt="Desarrollo de software">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Desarrollo de Software
+                            </h3>
+
+                            <p>
+                                Creamos aplicaciones y sistemas personalizados
+                                adaptados a las necesidades de tu empresa.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/desarrollo-movil.png"
+                            alt="Desarrollo web">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Desarrollo Web
+                            </h3>
+
+                            <p>
+                                Diseñamos y desarrollamos sitios web modernos,
+                                rápidos, seguros y adaptados a todos los dispositivos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/red-en-la-nube.png"
+                            alt="Soluciones Cloud">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Soluciones Cloud
+                            </h3>
+
+                            <p>
+                                Implementamos soluciones en la nube para mejorar
+                                la disponibilidad, escalabilidad y eficiencia.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/ciberseguridad.png"
+                            alt="Ciberseguridad">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Ciberseguridad
+                            </h3>
+
+                            <p>
+                                Protegemos tus sistemas, aplicaciones y datos
+                                frente a amenazas y vulnerabilidades.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/api.png"
+                            alt="APIs e integración">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                APIs e Integraciones
+                            </h3>
+
+                            <p>
+                                Conectamos tus aplicaciones y sistemas para
+                                automatizar procesos y compartir información.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/devops.png"
+                            alt="DevOps">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                DevOps
+                            </h3>
+
+                            <p>
+                                Automatizamos procesos de desarrollo y despliegue
+                                para entregar software de forma rápida y segura.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/asesoria.png"
+                            alt="Consultoría tecnológica">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Consultoría TI
+                            </h3>
+
+                            <p>
+                                Te ayudamos a definir estrategias tecnológicas
+                                alineadas con los objetivos de tu negocio.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="servicio-card">
+
+                        <img
+                            src="data/icon/soporte-de-ti.png"
+                            alt="Soporte tecnológico">
+
+                        <div class="servicio-content">
+
+                            <h3>
+                                Soporte y Mantención
+                            </h3>
+
+                            <p>
+                                Mantenemos tus sistemas funcionando correctamente
+                                y te ayudamos a resolver problemas tecnológicos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
             </div>
 
-            <div class="s-item">
-                <span class="s-number">12</span>
-                <span class="s-label">Países atendidos</span>
+        </section>
+
+
+        <!-- Proyectos -->
+
+        <section
+            class="proyectos"
+            id="proyectos">
+
+            <div class="contenedor">
+
+
+                <div class="proyectos-header">
+
+                    <h2>
+                        Proyectos que generan resultados
+                    </h2>
+
+                    <p>
+
+                        Transformamos necesidades de negocio en soluciones
+                        tecnológicas que aportan eficiencia, crecimiento y valor.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Carrusel -->
+
+                <div class="proyectos-carrusel">
+
+
+                    <button
+                        class="proyecto-btn proyecto-prev"
+                        aria-label="Proyecto anterior">
+
+                        &#10094;
+
+                    </button>
+
+
+                    <div class="proyectos-lista">
+
+
+                        <!-- Proyecto 1 -->
+
+                        <article class="proyecto-card">
+
+                            <div class="proyecto-imagen">
+
+                                <img
+                                    src="data/icon/sallc.png"
+                                    alt="Sistema de reservas Sebastian Autos LLC">
+
+                            </div>
+
+
+                            <div class="proyecto-content">
+
+                                <span class="proyecto-estado">
+                                    Proyecto realizado
+                                </span>
+
+
+                                <h3>
+                                    Sebastian Autos LLC — Sistema de Reservas
+                                </h3>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Necesidad
+                                    </h4>
+
+                                    <p>
+                                        La empresa necesitaba evolucionar desde
+                                        una página estática hacia un sistema de
+                                        reservas que permitiera recibir, gestionar
+                                        y realizar seguimiento de los servicios.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Solución
+                                    </h4>
+
+                                    <p>
+                                        Desarrollamos una aplicación con React,
+                                        Node.js y PostgreSQL, incorporando reservas,
+                                        generación de PDF, notificaciones, panel
+                                        administrativo y soporte bilingüe.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-resultado">
+
+                                    <h4>
+                                        Resultado
+                                    </h4>
+
+                                    <p>
+                                        Sistema en producción que permite gestionar
+                                        reservas de principio a fin, administrar
+                                        precios y consultar historiales sin modificar
+                                        el código.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-link">
+
+                                    <a
+                                        href="https://sebastianautosllc.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+
+                                        Visitar proyecto →
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Proyecto 2 -->
+
+                        <article class="proyecto-card">
+
+                            <div class="proyecto-imagen">
+
+                                <img
+                                    src="data/icon/jredtech.png"
+                                    alt="Plataforma web corporativa JredTech">
+
+                            </div>
+
+
+                            <div class="proyecto-content">
+
+                                <span class="proyecto-estado">
+                                    Proyecto realizado
+                                </span>
+
+
+                                <h3>
+                                    JredTech — Plataforma Web Corporativa
+                                </h3>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Necesidad
+                                    </h4>
+
+                                    <p>
+                                        JredTech necesitaba un sitio web profesional
+                                        que transmitiera confianza técnica, presentara
+                                        sus servicios y permitiera generar nuevos
+                                        clientes potenciales.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Solución
+                                    </h4>
+
+                                    <p>
+                                        Desarrollamos una plataforma multilenguaje
+                                        en ES, EN y FR, con diseño clean tech,
+                                        formulario de contacto con envío automático
+                                        de solicitudes en PDF y panel administrativo.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-resultado">
+
+                                    <h4>
+                                        Resultado
+                                    </h4>
+
+                                    <p>
+                                        Plataforma funcional de extremo a extremo,
+                                        con captura de leads, automatización de
+                                        solicitudes y contenido editable sin
+                                        modificar el código.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-link">
+
+                                    <a
+                                        href="https://jredtech.help"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+
+                                        Visitar proyecto →
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Proyecto 3 -->
+
+                        <article class="proyecto-card">
+
+                            <div class="proyecto-imagen">
+
+                                <img
+                                    src="img/proyecto-3.png"
+                                    alt="Aplicación web empresarial">
+
+                            </div>
+
+
+                            <div class="proyecto-content">
+
+                                <span class="proyecto-estado">
+                                    En curso
+                                </span>
+
+
+                                <h3>
+                                    Aplicación Web Empresarial
+                                </h3>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Necesidad
+                                    </h4>
+
+                                    <p>
+                                        Se requería una solución moderna para
+                                        centralizar la información y facilitar
+                                        la administración de las operaciones.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Solución
+                                    </h4>
+
+                                    <p>
+                                        Estamos desarrollando una aplicación web
+                                        con una arquitectura escalable y preparada
+                                        para futuras funcionalidades.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-resultado">
+
+                                    <h4>
+                                        Valor agregado
+                                    </h4>
+
+                                    <p>
+                                        Una plataforma preparada para crecer junto
+                                        con el negocio y adaptarse a nuevas
+                                        necesidades.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-link">
+
+                                    <span>
+                                        Proyecto en desarrollo
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Proyecto 4 -->
+
+                        <article class="proyecto-card">
+
+                            <div class="proyecto-imagen">
+
+                                <img
+                                    src="img/proyecto-4.png"
+                                    alt="Migración de infraestructura Cloud">
+
+                            </div>
+
+
+                            <div class="proyecto-content">
+
+                                <span class="proyecto-estado">
+                                    Proyecto realizado
+                                </span>
+
+
+                                <h3>
+                                    Migración de Infraestructura Cloud
+                                </h3>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Necesidad
+                                    </h4>
+
+                                    <p>
+                                        La empresa necesitaba modernizar su
+                                        infraestructura y mejorar la disponibilidad
+                                        de sus servicios.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-seccion">
+
+                                    <h4>
+                                        Solución
+                                    </h4>
+
+                                    <p>
+                                        Diseñamos e implementamos una infraestructura
+                                        Cloud orientada a disponibilidad, seguridad
+                                        y escalabilidad.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="proyecto-resultado">
+
+                                    <h4>
+                                        Resultado
+                                    </h4>
+
+                                    <p>
+                                        Mayor disponibilidad de los servicios,
+                                        infraestructura escalable y una administración
+                                        más eficiente.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                    </div>
+
+
+                    <button
+                        class="proyecto-btn proyecto-next"
+                        aria-label="Siguiente proyecto">
+
+                        &#10095;
+
+                    </button>
+
+
+                </div>
+
             </div>
 
-        </div>
-
-    </div>
-
-</main>
-
-
-<!-- Servicios -->
-<section class="servicios" id="servicios">
-
-    <div class="contenedor">
-
-        <div class="servicios-header">
-            <h2>Nuestros servicios</h2>
-
-            <p>
-                Ofrecemos soluciones tecnológicas diseñadas para
-                impulsar el crecimiento y la transformación digital
-                de tu empresa.
-            </p>
-        </div>
-
-
-        <!-- Cards -->
-        <div class="servicios-grid">
-
-            <article class="servicio-card">
-                <img src="data/icon/programacion.png" alt="Desarrollo de software">
-
-                <div class="servicio-content">
-                    <h3>Desarrollo de Software</h3>
-
-                    <p>
-                        Creamos aplicaciones y sistemas personalizados
-                        adaptados a las necesidades de tu empresa.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/desarrollo-movil.png" alt="Desarrollo web">
-
-                <div class="servicio-content">
-                    <h3>Desarrollo Web</h3>
-
-                    <p>
-                        Diseñamos y desarrollamos sitios web modernos,
-                        rápidos, seguros y adaptados a todos los dispositivos.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/red-en-la-nube.png" alt="Soluciones Cloud">
-
-                <div class="servicio-content">
-                    <h3>Soluciones Cloud</h3>
-
-                    <p>
-                        Implementamos soluciones en la nube para mejorar
-                        la disponibilidad, escalabilidad y eficiencia.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/ciberseguridad.png" alt="Ciberseguridad">
-
-                <div class="servicio-content">
-                    <h3>Ciberseguridad</h3>
-
-                    <p>
-                        Protegemos tus sistemas, aplicaciones y datos
-                        frente a amenazas y vulnerabilidades.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/api.png" alt="APIs e integración">
-
-                <div class="servicio-content">
-                    <h3>APIs e Integraciones</h3>
-
-                    <p>
-                        Conectamos tus aplicaciones y sistemas para
-                        automatizar procesos y compartir información.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/devops.png" alt="DevOps">
-
-                <div class="servicio-content">
-                    <h3>DevOps</h3>
-
-                    <p>
-                        Automatizamos procesos de desarrollo y despliegue
-                        para entregar software de forma rápida y segura.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/asesoria.png" alt="Consultoría tecnológica">
-
-                <div class="servicio-content">
-                    <h3>Consultoría TI</h3>
-
-                    <p>
-                        Te ayudamos a definir estrategias tecnológicas
-                        alineadas con los objetivos de tu negocio.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="servicio-card">
-                <img src="data/icon/soporte-de-ti.png" alt="Soporte tecnológico">
-
-                <div class="servicio-content">
-                    <h3>Soporte y Mantención</h3>
-
-                    <p>
-                        Mantenemos tus sistemas funcionando correctamente
-                        y te ayudamos a resolver problemas tecnológicos.
-                    </p>
-                </div>
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
     </main>
 
-<!-- Footer -->
+
+    <!-- Footer -->
+
     <footer class="footer">
 
-    <div class="contenedor footer-contenido">
+        <div class="contenedor footer-contenido">
 
-        <!-- Información de contacto -->
-        <div class="footer-columna">
 
-            <div class="logo">
-                <img src="data/icon/logo.png" alt="Logo de Jred Tech Services">
-                <span>Jred Tech Services</span>
+            <!-- Información de contacto -->
+
+            <div class="footer-columna">
+
+                <div class="logo">
+
+                    <img
+                        src="data/icon/logo.png"
+                        alt="Logo de Jred Tech Services">
+
+                    <span>
+                        Jred Tech Services
+                    </span>
+
+                </div>
+
+
+                <p>
+                    Soluciones tecnológicas para impulsar
+                    la transformación digital de tu empresa.
+                </p>
+
+                <p>
+                    💬 contacto@jredtech.help
+                </p>
+
+                <p>
+                    📞 +56 9 1234 5678
+                </p>
+
             </div>
 
+
+            <!-- Servicios -->
+
+            <div class="footer-columna">
+
+                <h3>
+                    Servicios
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="servicio.html">
+                            Desarrollo de software
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicio.html">
+                            Plataformas empresariales
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicio.html">
+                            Soluciones Cloud
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicio.html">
+                            Ciberseguridad
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Ubicación -->
+
+            <div class="footer-columna">
+
+                <h3>
+                    Ubicación
+                </h3>
+
+                <p>
+                    🇨🇱 Santiago, Chile
+                </p>
+
+                <p>
+                    Atención presencial y online
+                </p>
+
+            </div>
+
+
+            <!-- Enlaces rápidos -->
+
+            <div class="footer-columna">
+
+                <h3>
+                    Enlaces rápidos
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicio.html">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="proyecto.html">
+                            Proyectos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- Copyright -->
+
+        <div class="footer-bottom">
+
             <p>
-                Soluciones tecnológicas para impulsar
-                la transformación digital de tu empresa.
+                © 2026 Jred Tech Services. Todos los derechos reservados.
             </p>
-                <!-- contacto -->
-            <p>💬 contacto@jredtech.help</p>
-            <p>📞 +56 9 1234 5678</p>
 
         </div>
 
+    </footer>
 
-
-
-
-        <div class="footer-columna">
-            <!-- servicios en footer -->
-            <h3>Servicios</h3>
-
-            <ul>
-                <li><a href="#">♨︎ Desarrollo de software</a></li>
-                <li><a href="#">🏢 Plataformas empresariales</a></li>
-                <li><a href="#">☁️ Soluciones Cloud</a></li>
-                <li><a href="#">🪪 Ciberseguridad</a></li>
-            </ul>
-
-        </div>
-
-
-        <!-- Ubicación footer-->
-        <div class="footer-columna">
-
-            <h3>Ubicación</h3>
-
-            <p>🇨🇱 Santiago, Chile</p>
-            <p>Atención presencial y online</p>
-
-        </div>
-
-
-        <div class="footer-columna">
-
-            <h3>Enlaces rápidos</h3>
-
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicio.html">Servicios</a></li>
-                <li><a href="proyecto.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
-            </ul>
-
-        </div>
-
-    </div>
-
-
-    <!-- Copyright -->
-    <div class="footer-bottom">
-
-        <p>
-            © 2026 Jred Tech Services. Todos los derechos reservados.
-        </p>
-
-    </div>
-
-</footer>
 
 </body>
 
-</html>  
-            
+</html>
+```
