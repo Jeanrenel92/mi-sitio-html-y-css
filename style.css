@@ -629,3 +629,222 @@ body {
         gap: 30px;
     }
 }
+
+/* Sección de contacto */
+
+.contacto {
+    background-color: #0b1a2e;
+    color: white;
+
+    padding: 100px 0;
+}
+
+.contacto-header {
+    text-align: center;
+
+    max-width: 750px;
+
+    margin: 0 auto 60px;
+}
+
+.contacto-header h2 {
+    font-size: 36px;
+
+    margin-bottom: 15px;
+}
+
+.contacto-header p {
+    color: #b8c4d4;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+}
+
+
+/* Contenido de contacto */
+
+.contacto-contenido {
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* Información */
+
+.contacto-info {
+    padding: 20px 0;
+}
+
+.contacto-info h2 {
+    font-size: 28px;
+
+    margin-bottom: 15px;
+}
+
+.contacto-info > p {
+    color: #b8c4d4;
+
+    line-height: 1.6;
+
+    margin-bottom: 35px;
+}
+
+
+/* Datos */
+
+.contacto-dato {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.contacto-icono {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2563eb;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+
+    flex-shrink: 0;
+}
+
+.contacto-dato h3 {
+    font-size: 16px;
+
+    margin-bottom: 5px;
+}
+
+.contacto-dato p {
+    color: #b8c4d4;
+
+    font-size: 15px;
+}
+
+
+/* Formulario */
+
+.contacto-formulario {
+    background-color: white;
+
+    color: #222;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.contacto-formulario h2 {
+    color: #0b1a2e;
+
+    font-size: 26px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Campos */
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+.form-grupo label {
+    display: block;
+
+    color: #0b1a2e;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.form-grupo input,
+.form-grupo select,
+.form-grupo textarea {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 6px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.form-grupo input:focus,
+.form-grupo select:focus,
+.form-grupo textarea:focus {
+    border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.form-grupo textarea {
+    resize: vertical;
+}
+
+
+/* Botón */
+
+.btn-enviar {
+    width: 100%;
+
+    padding: 13px 20px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #1d4ed8;
+
+    transform: translateY(-2px);
+}

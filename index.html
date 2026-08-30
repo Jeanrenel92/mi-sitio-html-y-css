@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 
 <html lang="es">
@@ -49,19 +49,19 @@
                     </li>
 
                     <li>
-                        <a href="servicio.html">
+                        <a href="#servicios">
                             Servicios
                         </a>
                     </li>
 
                     <li>
-                        <a href="proyecto.html">
+                        <a href="#proyectos">
                             Proyectos
                         </a>
                     </li>
 
                     <li>
-                        <a href="contacto.html">
+                        <a href="#contactos">
                             Contacto
                         </a>
                     </li>
@@ -779,6 +779,265 @@
 
         </section>
 
+        <!-- Sección de contacto -->
+
+                <section class="contacto" id="contacto">
+
+                    <div class="contenedor">
+
+                        <div class="contacto-header">
+
+                            <h2>
+                                Hablemos de tu proyecto
+                            </h2>
+
+                            <p>
+                                Cuéntanos qué necesitas y trabajemos juntos
+                                en una solución tecnológica para tu negocio.
+                            </p>
+
+                        </div>
+
+
+                        <div class="contacto-contenido">
+
+
+                            <!-- Información de contacto -->
+
+                            <div class="contacto-info">
+
+                                <h2>
+                                    Conversemos
+                                </h2>
+
+                                <p>
+                                    Estamos disponibles para escuchar tu idea,
+                                    conocer tus necesidades y ayudarte a encontrar
+                                    la solución tecnológica adecuada.
+                                </p>
+
+
+                                <div class="contacto-dato">
+
+                                    <span class="contacto-icono">✉</span>
+
+                                    <div>
+
+                                        <h3>Email</h3>
+
+                                        <p>
+                                            contacto@jredtech.help
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="contacto-dato">
+
+                                    <span class="contacto-icono">☎</span>
+
+                                    <div>
+
+                                        <h3>Teléfono</h3>
+
+                                        <p>
+                                            +56 9 1234 5678
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="contacto-dato">
+
+                                    <span class="contacto-icono">📍</span>
+
+                                    <div>
+
+                                        <h3>Ubicación</h3>
+
+                                        <p>
+                                            Santiago, Chile
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="contacto-dato">
+
+                                    <span class="contacto-icono">🕐</span>
+
+                                    <div>
+
+                                        <h3>Atención</h3>
+
+                                        <p>
+                                            Atención online y presencial
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Formulario -->
+
+                            <div class="contacto-formulario">
+
+                                <h2>
+                                    Envíanos un mensaje
+                                </h2>
+
+                                <form action="#" method="POST">
+
+                                    <div class="form-grupo">
+
+                                        <label for="nombre">
+                                            Nombre
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            id="nombre"
+                                            name="nombre"
+                                            placeholder="Tu nombre"
+                                            required
+                                        >
+
+                                    </div>
+
+
+                                    <div class="form-grupo">
+
+                                        <label for="email">
+                                            Correo electrónico
+                                        </label>
+
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            placeholder="tu@email.com"
+                                            required
+                                        >
+
+                                    </div>
+
+
+                                    <div class="form-grupo">
+
+                                        <label for="telefono">
+                                            Teléfono
+                                        </label>
+
+                                        <input
+                                            type="tel"
+                                            id="telefono"
+                                            name="telefono"
+                                            placeholder="+56 9 1234 5678"
+                                        >
+
+                                    </div>
+
+
+                                    <div class="form-grupo">
+
+                                        <label for="servicio">
+                                            Servicio de interés
+                                        </label>
+
+                                        <select
+                                            id="servicio"
+                                            name="servicio"
+                                            required
+                                        >
+
+                                            <option value="">
+                                                Selecciona un servicio
+                                            </option>
+
+                                            <option value="software">
+                                                Desarrollo de Software
+                                            </option>
+
+                                            <option value="web">
+                                                Desarrollo Web
+                                            </option>
+
+                                            <option value="cloud">
+                                                Soluciones Cloud
+                                            </option>
+
+                                            <option value="ciberseguridad">
+                                                Ciberseguridad
+                                            </option>
+
+                                            <option value="api">
+                                                APIs e Integraciones
+                                            </option>
+
+                                            <option value="devops">
+                                                DevOps
+                                            </option>
+
+                                            <option value="consultoria">
+                                                Consultoría TI
+                                            </option>
+
+                                            <option value="soporte">
+                                                Soporte y Mantención
+                                            </option>
+
+                                            <option value="otro">
+                                                Otro
+                                            </option>
+
+                                        </select>
+
+                                    </div>
+
+
+                                    <div class="form-grupo">
+
+                                        <label for="mensaje">
+                                            Mensaje
+                                        </label>
+
+                                        <textarea
+                                            id="mensaje"
+                                            name="mensaje"
+                                            rows="6"
+                                            placeholder="Cuéntanos brevemente sobre tu proyecto..."
+                                            required
+                                        ></textarea>
+
+                                    </div>
+
+
+                                    <button
+                                        type="submit"
+                                        class="btn-enviar"
+                                    >
+                                        Enviar solicitud
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
 
     </main>
 
@@ -918,6 +1177,7 @@
                 </ul>
 
             </div>
+            
 
 
         </div>
